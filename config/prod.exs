@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :valkyrieagency, Valkyrieagency.Endpoint,
   http: [port: 8888],
-  url: [host: "example.com", port: 80],
+  url: [host: "valkyrieagency.com", port: 80],
   cache_static_manifest: "priv/static/manifest.json"
 
 config :phoenix, :serve_endpoints, true
