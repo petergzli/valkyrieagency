@@ -1,4 +1,4 @@
-APP="valkrieagency"
+APP="valkyrieagency"
 
 BUILD_HOST="ec2-52-11-83-61.us-west-2.compute.amazonaws.com"
 BUILD_USER="deploy"
