@@ -21,7 +21,7 @@ defmodule Valkyrieagency.Mixfile do
     [
       mod: {Valkyrieagency, []},
       extra_applications: [:logger],
-      applications: [:edeliver]
+      applications: [:phoenix, :phoenix_html, :cowboy, :edeliver, :postgrex, :ecto, :gettext]
     ]
   end
 

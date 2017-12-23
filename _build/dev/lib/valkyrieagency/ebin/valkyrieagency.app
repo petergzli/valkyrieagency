@@ -1,8 +1,5 @@
 {application,valkyrieagency,
-             [{applications,[kernel,stdlib,elixir,logger,gettext,
-                             phoenix_pubsub,cowboy,phoenix_html,phoenix,
-                             phoenix_live_reload,postgrex,phoenix_ecto]},
-              {description,"valkyrieagency"},
+             [{description,"valkyrieagency"},
               {modules,['Elixir.Valkyrieagency',
                         'Elixir.Valkyrieagency.Endpoint',
                         'Elixir.Valkyrieagency.ErrorHelpers',
@@ -19,4 +16,6 @@
               {registered,[]},
               {vsn,"0.0.1"},
               {mod,{'Elixir.Valkyrieagency',[]}},
-              {extra_applications,[logger]}]}.
+              {extra_applications,[logger]},
+              {applications,[kernel,stdlib,elixir,logger,phoenix,phoenix_html,
+                             cowboy,edeliver,postgrex,ecto,gettext]}]}.
