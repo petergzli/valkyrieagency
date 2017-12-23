@@ -14,7 +14,7 @@ config :valkyrieagency, Valkyrieagency.Endpoint,
 # Configure your database
 config :valkyrieagency, Valkyrieagency.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "valkyrieagent",
+  password: "templars",
   database: "valkyrieagency_prod",
   pool_size: 15
