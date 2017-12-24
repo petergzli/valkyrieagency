@@ -14,7 +14,7 @@
                         'Elixir.Valkyrieagency.UserSocket',
                         'Elixir.Valkyrieagency.Web']},
               {registered,[]},
-              {vsn,"0.0.4"},
+              {vsn,"0.0.5"},
               {mod,{'Elixir.Valkyrieagency',[]}},
               {extra_applications,[logger]},
               {applications,[kernel,stdlib,elixir,logger,phoenix,phoenix_html,

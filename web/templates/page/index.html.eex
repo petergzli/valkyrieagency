@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <header class="header header-left">
                         <h2 class="section-title">About</h2>
-                        <p class="section-subtitle text-muted">A few words about us</p>
+                        <p class="section-subtitle text-muted">We help create meaningful customer journeys by executing content, social, amplification, and creative technology.</p>
                     </header>
                 </div>
             </div><!-- Section header -->
@@ -38,40 +38,36 @@
 
                         <!-- Information block -->
                         <div class="col-md-6 column-pv">
-                            <h3>Web-Design</h3>
+                            <h3>App Development</h3>
                             <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
+                                We offer full-stack development services to turn your idea into a fully functional app. 
                             </p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                         </div><!-- /Information block -->
 
                         <!-- Information block -->
                         <div class="col-md-6 column-pv">
-                            <h3>Photography</h3>
+                            <h3>Graphic Design</h3>
                             <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
+                                Even if you haven't designed the interface, we have all the resources to take care of your design needs. 
                             </p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                         </div><!-- /Information block -->
 
                         <!-- Information block -->
                         <div class="col-md-6 column-pv">
-                            <h3>Photography</h3>
+                            <h3>Growth</h3>
                             <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
+                                We can help you scale the app by offering marketing and advertising services. 
                             </p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                         </div><!-- /Information block -->
 
                         <!-- Information block -->
                         <div class="col-md-6 column-pv">
-                            <h3>Frontend Development</h3>
+                            <h3>Web Development</h3>
                             <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
+                                Just need a simple website for your business? We can build a custom site in no time. 
                             </p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                         </div><!-- /Information block -->
@@ -84,78 +80,6 @@
 
         </div>
     </section><!-- END OF SECTION: About -->
-
-
-    <!-- SECTION: Features -->
-    <section id="features" class="section">
-        <div class="container">
-
-            <!-- Section header -->
-            <div class="row">
-                <div class="col-md-12">
-                    <header class="header header-right">
-                        <p class="section-subtitle text-muted">Some features</p>
-                        <h2 class="section-title">Features</h2>
-                    </header>
-                </div>
-            </div><!-- /Section header -->
-
-            <!-- Section content -->
-            <div class="row section-content">
-
-                <!-- Left column -->
-                <div class="col-md-8">
-                    <div class="row">
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>HTML5 & CSS3</h3>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Information block -->
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Easy To Customize</h3>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Information block -->
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Google Fonts</h3>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Information block -->
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Font Awesome Icons</h3>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Information block -->
-
-                    </div>
-                </div><!-- /Left column -->
-
-                <!-- Right column -->
-                <div class="col-md-4">
-                    <p class="text-big text-muted text-90deg">Features</p>
-                </div><!-- /Right column -->
-
-            </div><!-- /Section content -->
-
-        </div>
-    </section><!-- END OF SECTION: Features -->
-
 
     <!-- SECTION: Portfolio -->
     <section id="portfolio" class="section">
@@ -182,9 +106,9 @@
                     <!-- Portfolio filters -->
                     <ul class="portfolio-filters">
                         <li><button class="portfolio-filter-button portfolio-filter-button-active" data-filter="*">All</button></li>
-                        <li><button class="portfolio-filter-button" data-filter=".photography">Photography</button></li>
-                        <li><button class="portfolio-filter-button" data-filter=".web-design">Web-Design</button></li>
-                        <li><button class="portfolio-filter-button" data-filter=".creative">Creative</button></li>
+                        <li><button class="portfolio-filter-button" data-filter=".belinked">BeLinked</button></li>
+                        <li><button class="portfolio-filter-button" data-filter=".soothe">Soothe</button></li>
+                        <li><button class="portfolio-filter-button" data-filter=".guavee">Guavee</button></li>
                     </ul><!-- /Portfolio filters -->
 
                 </div><!-- /Left column -->
@@ -196,12 +120,12 @@
                             <div class="portfolio">
 
                                 <!-- Portfolio image -->
-                                <a href="#portfolio-image-1" class="portfolio-item photography">
+                                <a href="#portfolio-image-1" class="portfolio-item belinked">
                                     <img src="/images/portfolio-image-photo-1-thumb.jpg" alt="Portfolio Image">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
-                                            <h3>Title</h3>
-                                            <span class="portfolio-category text-muted">@ Photography</span>
+                                            <h3>BeLinked</h3>
+                                            <span class="portfolio-category text-muted">belinkedapp.com</span>
                                         </div>
                                     </div>
                                 </a><!-- /Portfolio image -->
@@ -209,8 +133,8 @@
                                 <!-- Portfolio image modal -->
                                 <div id="portfolio-image-1" class="portfolio-modal mfp-hide">
                                     <header class="header header-left">
-                                        <h3 class="section-title">Title</h3>
-                                        <p class="section-subtitle text-muted">Photography</p>
+                                        <h3 class="section-title">BeLinked</h3>
+                                        <p class="section-subtitle text-muted">belinkedapp.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
                                         <img src="/images/portfolio-image-photo-1.jpg" alt="Portfolio image">
@@ -219,12 +143,12 @@
 
 
                                 <!-- Portfolio image -->
-                                <a href="#portfolio-image-2" class="portfolio-item web-design">
+                                <a href="#portfolio-image-2" class="portfolio-item soothe">
                                     <img src="/images/portfolio-image-web-1-thumb.jpg" alt="Portfolio Image">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
-                                            <h3>Title</h3>
-                                            <span class="portfolio-category text-muted">@ Web-Design</span>
+                                            <h3>Soothe</h3>
+                                            <span class="portfolio-category text-muted">soothe.com</span>
                                         </div>
                                     </div>
                                 </a><!-- /Portfolio image -->
@@ -232,8 +156,8 @@
                                 <!-- Portfolio image modal -->
                                 <div id="portfolio-image-2" class="portfolio-modal mfp-hide">
                                     <header class="header header-left">
-                                        <h3 class="section-title">Title</h3>
-                                        <p class="section-subtitle text-muted">Web-Design</p>
+                                        <h3 class="section-title">Soothe</h3>
+                                        <p class="section-subtitle text-muted">soothe.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
                                         <img src="/images/portfolio-image-web-1.jpg" alt="Portfolio image">
@@ -242,12 +166,12 @@
 
 
                                 <!-- Portfolio image -->
-                                <a href="#portfolio-image-3" class="portfolio-item photography">
+                                <a href="#portfolio-image-3" class="portfolio-item belinked">
                                     <img src="/images/portfolio-image-photo-2-thumb.jpg" alt="Portfolio Image">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
-                                            <h3>Title</h3>
-                                            <span class="portfolio-category text-muted">@ Photography</span>
+                                            <h3>BeLinked</h3>
+                                            <span class="portfolio-category text-muted">belinkedapp.com</span>
                                         </div>
                                     </div>
                                 </a><!-- /Portfolio image -->
@@ -255,8 +179,8 @@
                                 <!-- Portfolio image modal -->
                                 <div id="portfolio-image-3" class="portfolio-modal mfp-hide">
                                     <header class="header header-left">
-                                        <h3 class="section-title">Title</h3>
-                                        <p class="section-subtitle text-muted">Photography</p>
+                                        <h3 class="section-title">BeLinked</h3>
+                                        <p class="section-subtitle text-muted">belinkedapp.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
                                         <img src="/images/portfolio-image-photo-2.jpg" alt="Portfolio Image">
@@ -265,12 +189,12 @@
 
 
                                 <!-- Portfolio image -->
-                                <a href="#portfolio-image-4" class="portfolio-item creative">
+                                <a href="#portfolio-image-4" class="portfolio-item guavee">
                                     <img src="/images/portfolio-image-creative-1-thumb.jpg" alt="Portfolio Image 4">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
-                                            <h3>Title</h3>
-                                            <span class="portfolio-category text-muted">@ Creative</span>
+                                            <h3>Guavee</h3>
+                                            <span class="portfolio-category text-muted">guavee.com</span>
                                         </div>
                                     </div>
                                 </a><!-- /Portfolio image -->
@@ -278,8 +202,8 @@
                                 <!-- Portfolio image modal -->
                                 <div id="portfolio-image-4" class="portfolio-modal mfp-hide">
                                     <header class="header header-left">
-                                        <h3 class="section-title">Title</h3>
-                                        <p class="section-subtitle text-muted">Creative</p>
+                                        <h3 class="section-title">Guavee</h3>
+                                        <p class="section-subtitle text-muted">guavee.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
                                         <img src="/images/portfolio-image-creative-1.jpg" alt="Portfolio Image">
@@ -402,8 +326,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <header class="header header-left">
-                        <h2 class="section-title">Price</h2>
-                        <p class="section-subtitle text-muted">Best offers</p>
+                        <h2 class="section-title">Rates</h2>
                     </header>
                 </div>
             </div><!-- /Section header -->
@@ -413,7 +336,7 @@
 
                 <!-- Left column -->
                 <div class="col-md-4">
-                    <p class="text-big text-muted text-270deg">Price</p>
+                    <p class="text-big text-muted text-270deg">Rates</p>
                 </div><!-- /Left column -->
 
                 <!-- Right column -->
@@ -421,43 +344,25 @@
                     <div class="row">
 
                         <!-- Offer -->
-                        <div class="col-sm-6 col-xs-12 column-pv">
+                        <div class="col-sm-12 col-xs-12 column-pv">
                             <div class="price-block">
                                 <div class="row">
-                                    <div class="price-popular">Popular</div>
+                                    <div class="price-popular">Set Rate</div>
                                     <div class="col-md-5">
-                                        <div class="price-number">$19</div>
+                                        <div class="price-number">$100/hr</div>
                                     </div>
                                     <div class="col-md-7">
-                                        <h3>Base Plan</h3>
+                                        <h3>Development Rates</h3>
                                         <ul class="price-features">
-                                            <li>First feature</li>
-                                            <li>Second best feature</li>
+                                            <li>Full-stack development.</li>
+                                            <li>Routine meetings.</li>
                                         </ul>
-                                        <button class="btn btn-colored price-btn" data-toggle="modal" data-target="#getfreetrial">Get Free Trial</button>
+                                        <button class="btn btn-colored price-btn" data-toggle="modal" data-target="#getfreetrial">Get a full estimate</button>
                                     </div>
                                 </div>
                             </div>
                         </div><!-- /Offer -->
 
-                        <!-- Offer -->
-                        <div class="col-sm-6 col-xs-12 column-pv">
-                            <div class="price-block">
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="price-number">$39</div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h3>Extended</h3>
-                                        <ul class="price-features">
-                                            <li>First feature</li>
-                                            <li>Second best feature</li>
-                                        </ul>
-                                        <button class="btn btn-colored price-btn" data-toggle="modal" data-target="#getfreetrial">Get Free Trial</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /Offer -->
 
                         <!-- Get trial block -->
                         <div class="col-sm-12 column-pv">
@@ -465,9 +370,9 @@
 
                                 <!-- Block header -->
                                 <div class="col-md-12">
-                                    <h3>Get free trial</h3>
+                                    <h3>Get a Full Estimate</h3>
                                     <p class="text-muted">
-                                        There are many variations of passages of Lorem Ipsum available
+                                        Fill out the form, and we will get back to your immediately for a quote.
                                     </p>
                                 </div><!-- /Block header -->
 
@@ -481,7 +386,7 @@
                                         <input type="email" class="form-control" placeholder="E-mail address... *" required>
                                     </div>
                                     <div class="col-md-2 column-mt">
-                                        <button type="submit" class="btn btn-colored">Get free</button>
+                                        <button type="submit" class="btn btn-colored">Get a Quote</button>
                                     </div>
                                 </form><!-- /Form -->
 

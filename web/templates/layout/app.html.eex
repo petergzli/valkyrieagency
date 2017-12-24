@@ -35,7 +35,7 @@
 
     <div class="header-text">
 
-        <h1>The minimal theme</h1>
+        <h1>The Valkyrie Agency</h1>
 
         <!-- Navigation -->
         <nav id="navigation" class="navbar">
@@ -52,10 +52,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="underline" href="#home">Home</a></li>
                     <li><a class="underline" href="#about">About</a></li>
-                    <li><a class="underline" href="#features">Features</a></li>
                     <li><a class="underline" href="#portfolio">Portfolio</a></li>
                     <li><a class="underline" href="#testimonials">Testimonials</a></li>
-                    <li><a class="underline" href="#price">Price</a></li>
+                    <li><a class="underline" href="#price">Rates</a></li>
                     <li><a class="underline" href="#contact">Contact</a></li>
                 </ul>
             </div>
