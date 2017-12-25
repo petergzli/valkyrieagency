@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <header class="header header-left">
                         <h2 class="section-title">About</h2>
-                        <p class="section-subtitle text-muted">We help create meaningful customer journeys by executing content, social, amplification, and creative technology.</p>
+                        <p class="section-subtitle text-muted">Our Story</p>
                     </header>
                 </div>
             </div><!-- Section header -->
@@ -19,65 +19,77 @@
             <!-- Section content -->
             <div class="row section-content">
 
-                <!-- Left column -->
-                <div class="col-md-4 column-pv">
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- POST: Image -->
+                        <article class="blog-post">
 
-                    <p class="text-big text-muted text-270deg">About</p>
-
-                    <!-- Video link -->
-                    <a href="http://www.youtube.com/watch?v=uVju5--RqtY" class="iframe-popup about-video">
-                        <i class="fa fa-3x fa-video-camera"></i>
-                        See video
-                    </a><!-- /Video link -->
-
-                </div><!-- /Left column -->
-
-                <!-- Right column -->
-                <div class="col-md-8">
-                    <div class="row">
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>App Development</h3>
+                            <h2>    
+                                Creating an app in today’s marketplace is like going to war. Let us be your Valkyrie.
+                            </h2>
+                            <!-- Post content -->
                             <p class="text-muted">
-                                We offer full-stack development services to turn your idea into a fully functional app. 
-                            </p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-                        </div><!-- /Information block -->
+                                Our founders were once customers of large scale dev shops with fancy bells and whistles and we realized that we could serve new app developers better than what was out there in the market. This is why we created Valkyrie and want to guide you on your journey.
+                            </p><!-- /Post content -->
 
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Graphic Design</h3>
+                            <!-- Post content -->
                             <p class="text-muted">
-                                Even if you haven't designed the interface, we have all the resources to take care of your design needs. 
-                            </p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-                        </div><!-- /Information block -->
+                                We take on fewer customers in order to give our full attention to your project
+                            </p><!-- /Post content -->
 
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Growth</h3>
-                            <p class="text-muted">
-                                We can help you scale the app by offering marketing and advertising services. 
-                            </p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-                        </div><!-- /Information block -->
-
-                        <!-- Information block -->
-                        <div class="col-md-6 column-pv">
-                            <h3>Web Development</h3>
-                            <p class="text-muted">
-                                Just need a simple website for your business? We can build a custom site in no time. 
-                            </p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-                        </div><!-- /Information block -->
-
+                        </article><!-- END OF POST: Image -->
                     </div>
-                </div><!-- /Right column -->
+                </div>
 
+                <div class="row">
+                    <!-- Left column -->
+                    <div class="col-md-4 column-pv">
+
+                        <p class="text-big text-muted text-270deg">About</p>
+
+                    </div><!-- /Left column -->
+
+                    <!-- Right column -->
+                    <div class="col-md-8">
+                        <div class="row">
+
+                            <!-- Information block -->
+                            <div class="col-md-6 column-pv">
+                                <h3>App Development</h3>
+                                <p class="text-muted">
+                                    We offer full-stack development services to turn your idea into a fully functional app. 
+                                </p>
+                            </div><!-- /Information block -->
+
+                            <!-- Information block -->
+                            <div class="col-md-6 column-pv">
+                                <h3>Graphic Design</h3>
+                                <p class="text-muted">
+                                    Even if you haven't designed the interface, we have all the resources to take care of your design needs. 
+                                </p>
+                            </div><!-- /Information block -->
+
+                            <!-- Information block -->
+                            <div class="col-md-6 column-pv">
+                                <h3>Growth</h3>
+                                <p class="text-muted">
+                                    We can help you scale the app by offering marketing and advertising services. 
+                                </p>
+                            </div><!-- /Information block -->
+
+                            <!-- Information block -->
+                            <div class="col-md-6 column-pv">
+                                <h3>Web Development</h3>
+                                <p class="text-muted">
+                                    Just need a simple website for your business? We can build a custom site in no time. 
+                                </p>
+                            </div><!-- /Information block -->
+
+                        </div>
+                    </div><!-- /Right column -->
+
+                </div>
             </div><!-- /Section content -->
-
-
         </div>
     </section><!-- END OF SECTION: About -->
 
@@ -107,7 +119,6 @@
                     <ul class="portfolio-filters">
                         <li><button class="portfolio-filter-button portfolio-filter-button-active" data-filter="*">All</button></li>
                         <li><button class="portfolio-filter-button" data-filter=".belinked">BeLinked</button></li>
-                        <li><button class="portfolio-filter-button" data-filter=".soothe">Soothe</button></li>
                         <li><button class="portfolio-filter-button" data-filter=".guavee">Guavee</button></li>
                     </ul><!-- /Portfolio filters -->
 
@@ -121,7 +132,7 @@
 
                                 <!-- Portfolio image -->
                                 <a href="#portfolio-image-1" class="portfolio-item belinked">
-                                    <img src="/images/portfolio-image-photo-1-thumb.jpg" alt="Portfolio Image">
+                                    <img src="/images/portfolio-belinked-1-thumb.png" alt="Portfolio Image">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
                                             <h3>BeLinked</h3>
@@ -137,37 +148,14 @@
                                         <p class="section-subtitle text-muted">belinkedapp.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
-                                        <img src="/images/portfolio-image-photo-1.jpg" alt="Portfolio image">
-                                    </div>
-                                </div><!-- /Portfolio image modal -->
-
-
-                                <!-- Portfolio image -->
-                                <a href="#portfolio-image-2" class="portfolio-item soothe">
-                                    <img src="/images/portfolio-image-web-1-thumb.jpg" alt="Portfolio Image">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-text">
-                                            <h3>Soothe</h3>
-                                            <span class="portfolio-category text-muted">soothe.com</span>
-                                        </div>
-                                    </div>
-                                </a><!-- /Portfolio image -->
-
-                                <!-- Portfolio image modal -->
-                                <div id="portfolio-image-2" class="portfolio-modal mfp-hide">
-                                    <header class="header header-left">
-                                        <h3 class="section-title">Soothe</h3>
-                                        <p class="section-subtitle text-muted">soothe.com</p>
-                                    </header>
-                                    <div class="portfolio-modal-image column-mt">
-                                        <img src="/images/portfolio-image-web-1.jpg" alt="Portfolio image">
+                                        <img src="/images/portfolio-belinked-1.png" alt="Portfolio image">
                                     </div>
                                 </div><!-- /Portfolio image modal -->
 
 
                                 <!-- Portfolio image -->
                                 <a href="#portfolio-image-3" class="portfolio-item belinked">
-                                    <img src="/images/portfolio-image-photo-2-thumb.jpg" alt="Portfolio Image">
+                                    <img src="/images/portfolio-belinked-2-thumb.png" alt="Portfolio Image">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
                                             <h3>BeLinked</h3>
@@ -183,14 +171,14 @@
                                         <p class="section-subtitle text-muted">belinkedapp.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
-                                        <img src="/images/portfolio-image-photo-2.jpg" alt="Portfolio Image">
+                                        <img src="/images/portfolio-belinked-2.png" alt="Portfolio Image">
                                     </div>
                                 </div><!-- /Portfolio image modal -->
 
 
                                 <!-- Portfolio image -->
                                 <a href="#portfolio-image-4" class="portfolio-item guavee">
-                                    <img src="/images/portfolio-image-creative-1-thumb.jpg" alt="Portfolio Image 4">
+                                    <img src="/images/portfolio-guavee-1-thumb.png" alt="Portfolio Image 4">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-text">
                                             <h3>Guavee</h3>
@@ -206,7 +194,7 @@
                                         <p class="section-subtitle text-muted">guavee.com</p>
                                     </header>
                                     <div class="portfolio-modal-image column-mt">
-                                        <img src="/images/portfolio-image-creative-1.jpg" alt="Portfolio Image">
+                                        <img src="/images/portfolio-guavee-1.png" alt="Portfolio Image">
                                     </div>
                                 </div><!-- /Portfolio image modal -->
 
@@ -222,185 +210,112 @@
         </div>
     </section><!-- END OF SECTION: Portfolio -->
 
-
-    <!-- SECTION: Testimonials -->
-    <section id="testimonials" class="section">
-        <div class="container">
-
-            <!-- Section header -->
-            <div class="row">
-                <div class="col-md-12">
-                    <header class="header header-right">
-                        <p class="section-subtitle text-muted">Our clients say</p>
-                        <h2 class="section-title">Testimonials</h2>
-                    </header>
-                </div>
-            </div><!-- /Section header -->
-
-            <!-- Section content -->
-            <div class="row section-content">
-
-                <!-- Left column -->
-                <div class="col-md-8">
-                    <div class="row">
-
-                        <!-- Testimonial block -->
-                        <div class="col-md-6 testimonial column-pv">
-                            <div class="testimonial-author">
-                                <div class="testimonial-image">
-                                    <img src="/images/testimonial-author-picture-1.jpg" alt="Jane Doe">
-                                </div>
-                                <h3>Jane Doe</h3>
-                                <p class="testimonial-company text-muted">Company Name</p>
-                            </div>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Testimonial block -->
-
-                        <!-- Testimonial block -->
-                        <div class="col-md-6 testimonial column-pv">
-                            <div class="testimonial-author">
-                                <div class="testimonial-image">
-                                    <img src="/images/testimonial-author-picture-2.jpg" alt="John Doe">
-                                </div>
-                                <h3>John Doe</h3>
-                                <p class="testimonial-company text-muted">Company Name</p>
-                            </div>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Testimonial block -->
-
-                        <!-- Testimonial block -->
-                        <div class="col-md-6 testimonial column-pv">
-                            <div class="testimonial-author">
-                                <div class="testimonial-image">
-                                    <img src="/images/testimonial-author-picture-3.jpg" alt="Joseph Doe">
-                                </div>
-                                <h3>Joseph Doe</h3>
-                                <p class="testimonial-company text-muted">Company Name</p>
-                            </div>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Testimonial block -->
-
-                        <!-- Testimonial block -->
-                        <div class="col-md-6 testimonial column-pv">
-                            <div class="testimonial-author">
-                                <div class="testimonial-image">
-                                    <img src="/images/testimonial-author-picture-4.jpg" alt="Jade Doe">
-                                </div>
-                                <h3>Jade Doe</h3>
-                                <p class="testimonial-company text-muted">Company Name</p>
-                            </div>
-                            <p class="text-muted">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour.
-                            </p>
-                        </div><!-- /Testimonial block -->
-
-                    </div><!-- /.row -->
-                </div><!-- /Left column -->
-
-                <!-- Right column -->
-                <div class="col-md-4">
-                    <p class="text-big text-muted text-90deg">Testimonials</p>
-                </div><!-- /Right column -->
-
-            </div><!-- /Section content -->
-
-        </div>
-    </section><!-- END OF SECTION: Testimonials -->
-
-
     <!-- SECTION: Price -->
-    <section id="price" class="section">
+    <section id="case-study" class="section">
         <div class="container">
-
             <!-- Section header -->
             <div class="row">
                 <div class="col-md-12">
                     <header class="header header-left">
-                        <h2 class="section-title">Rates</h2>
+                        <h2 class="section-title">Case Study</h2>
                     </header>
                 </div>
             </div><!-- /Section header -->
 
-            <!-- Section content -->
             <div class="row section-content">
 
-                <!-- Left column -->
-                <div class="col-md-4">
-                    <p class="text-big text-muted text-270deg">Rates</p>
-                </div><!-- /Left column -->
+                <!-- Main Section -->
+                <div class="col-xs-12 col-md-12">
 
-                <!-- Right column -->
-                <div class="col-md-8">
                     <div class="row">
+                        <!-- POST: Image -->
+                        <article class="blog-post">
+                            <!-- Image -->
+                            <div class="blog-post-image">
+                                <img src="images/top-header-phones.png" alt="Blog Image 1">
+                            </div><!-- /Image -->
 
-                        <!-- Offer -->
-                        <div class="col-sm-12 col-xs-12 column-pv">
-                            <div class="price-block">
+                            <!-- Title, author -->
+                            <header class="blog-post-information">
                                 <div class="row">
-                                    <div class="price-popular">Set Rate</div>
-                                    <div class="col-md-5">
-                                        <div class="price-number">$100/hr</div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h3>Development Rates</h3>
-                                        <ul class="price-features">
-                                            <li>Full-stack development.</li>
-                                            <li>Routine meetings.</li>
-                                        </ul>
-                                        <button class="btn btn-colored price-btn" data-toggle="modal" data-target="#getfreetrial">Get a full estimate</button>
-                                    </div>
+                                    <h2 class="col-sm-12 col-md-6 blog-post-title">BeLinked Dating App</h2>
                                 </div>
+                            </header><!-- /Title, author -->
+
+                            <h2>    
+                                BeLinked is a dating app of ambitious singles based on the LinkedIn network.
+                            </h2>
+                            <!-- Post content -->
+                            <p class="text-muted">
+                                The Valkyrie Agency has taken an idea and developed a dating app which has been featured on ten of the most well known publications. We offered end to end consulting throughout their entire life cycle.  
+                            </p><!-- /Post content -->
+
+                            <!-- Post content -->
+                            <p class="text-muted">
+                                Most dev shops have never launched a product themselves. Our team of founders have successfully launched global award winning products.
+                            </p><!-- /Post content -->
+
+                        </article><!-- END OF POST: Image -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="section-title">BeLinked Featured On</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="row featured-on img-responsive">
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/Bustle_logo.png" alt="Blog Image 1">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/forbes-logo.jpeg" alt="Blog Image 1">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/marie-claire-logo.png" alt="Blog Image 1">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/inc-magazine-746690-edited.png" alt="Blog Image 1">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/business-insider.png" alt="Blog Image 1">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="featured-on-img" src="images/fast-company-Logo.png" alt="Blog Image 1">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row" >
+                        <!-- Testimonial block -->
+                        <div class="col-md-6 testimonial column-pv">
+                            <div class="testimonial-author">
+                                <h3>Wall Street Journal</h3>
+                                <p class="testimonial-company text-muted"></p>
                             </div>
-                        </div><!-- /Offer -->
+                            <p class="text-muted">
+                                “If your LinkedIn profile can help you find a job, then why not a date?... a new networking app for those who want to ensure their next match is gainfully employed.“
+                            </p>
+                        </div><!-- /Testimonial block -->
 
-
-                        <!-- Get trial block -->
-                        <div class="col-sm-12 column-pv">
-                            <div class="row">
-
-                                <!-- Block header -->
-                                <div class="col-md-12">
-                                    <h3>Get a Full Estimate</h3>
-                                    <p class="text-muted">
-                                        Fill out the form, and we will get back to your immediately for a quote.
-                                    </p>
-                                </div><!-- /Block header -->
-
-                                <!-- Form -->
-                                <form method="post" class="form-ajax">
-                                    <input type="hidden" name="form" value="Get Free Trial">
-                                    <div class="col-md-5 column-mt underline">
-                                        <input type="text" class="form-control" placeholder="Your name... *" required>
-                                    </div>
-                                    <div class="col-md-5 column-mt underline">
-                                        <input type="email" class="form-control" placeholder="E-mail address... *" required>
-                                    </div>
-                                    <div class="col-md-2 column-mt">
-                                        <button type="submit" class="btn btn-colored">Get a Quote</button>
-                                    </div>
-                                </form><!-- /Form -->
-
+                        <!-- Testimonial block -->
+                        <div class="col-md-6 testimonial column-pv">
+                            <div class="testimonial-author">
+                                <h3>Marie Claire</h3>
+                                <p class="testimonial-company text-muted"></p>
                             </div>
-                        </div><!-- /Get trial block -->
+                            <p class="text-muted">
+                                “If you're single, own a smartphone and are really focused on your career, there's a new dating app that you may want to schedule into your agenda.“
+                            </p>
+                        </div><!-- /Testimonial block -->
+                    </div>
 
+                </div><!-- END OF Main Section -->
 
-                    </div><!-- /.row -->
-                </div><!-- /Right column -->
-
-            </div><!-- /Section content -->
-
+            </div>
         </div>
-    </section><!-- END OF SECTION: Price -->
+    </section><!-- END OF SECTION: Case-study -->
 
 
     <!-- SECTION: Contact -->
@@ -423,26 +338,25 @@
                 <!-- Left column -->
                 <div class="col-md-8 column-pv">
 
+                    <!-- Block header -->
+                    <div class="col-md-8">
+                        <h3>Get a Full Estimate</h3>
+                        <p class="text-muted">
+                            Fill out the form, and we will get back to your immediately for a quote.
+                        </p>
+                    </div><!-- /Block header -->
+
                     <!-- Form -->
-                    <form class="form-ajax">
-                        <input type="hidden" name="form" value="Contact">
-                        <div class="row">
-                            <div class="form-group col-md-6 underline">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name... *" required>
-                            </div>
-                            <div class="form-group col-md-6 underline">
-                                <input type="email" name="email" class="form-control" placeholder="E-mail address... *" required>
-                            </div>
+                    <form method="post" class="form-ajax">
+                        <input type="hidden" name="form" value="Get Free Trial">
+                        <div class="col-md-5 column-mt underline">
+                            <input type="text" class="form-control" placeholder="Your name... *" required>
                         </div>
-                        <div class="row column-mt">
-                            <div class="form-group col-md-12 underline">
-                                <textarea name="message" class="form-control" placeholder="Message... "></textarea>
-                            </div>
+                        <div class="col-md-5 column-mt underline">
+                            <input type="email" class="form-control" placeholder="E-mail address... *" required>
                         </div>
-                        <div class="row column-mt">
-                            <div class="form-group col-md-12">
-                                <button type="submit" class="btn btn-colored">Send Message</button>
-                            </div>
+                        <div class="col-md-2 column-mt">
+                            <button type="submit" class="btn btn-colored">Get a Quote</button>
                         </div>
                     </form><!-- /Form -->
 
@@ -451,12 +365,9 @@
                 <!-- Right column -->
                 <div class="col-md-4 sideline column-pv">
 
-                    <p class="text-big text-muted text-90deg">Contact</p>
-
                     <!-- Contact information -->
                     <ul class="contact-information">
-                        <li class="contact-logo"><a href="#"><img src="images/logo.png" alt="Company Name"></a></li>
-                        <li><a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="iframe-popup"><i class="fa fa-map-marker"></i>221B Baker St, Marylebone, London NW1</a></li>
+                        <li class="contact-logo"><a href="#"><img src="images/valkyrie-agency-logo-full.png" alt="Company Name"></a></li>
                         <li><a href="mailto:clients@example.com"><i class="fa fa-envelope"></i>clients@example.com</a></li>
                         <li><a href="#"><i class="fa fa-phone"></i>+1 (555) 123-8877</a></li>
                     </ul><!-- /Contact information -->
@@ -495,7 +406,7 @@
                     <a href="#">Private police</a>
                 </div>
                 <div>
-                    Copyright &copy; 2016 Company Name
+                    Copyright &copy; 2017 The Valkyrie Agency
                 </div>
             </div><!-- /Footer links and copyright -->
 
