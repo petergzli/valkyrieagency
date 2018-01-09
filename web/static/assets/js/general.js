@@ -141,18 +141,21 @@ $(document).ready(function() {
 
                 var $submit_button = $(form).find('[type=submit]'),
                     submit_button_text = $submit_button.html();
+                var csrf_token = $('#csrf-token').val();
 
                 $submit_button.attr('disabled', true);
                 $submit_button.html('Wait...');
 
                 $.ajax({
-
                     type   : 'post',
-                    url    : 'sendmail.php',
-                    data   : $(form).serialize(),
-
-                    success: function() {
-                        $('.modal-result').html('Message sent successfully');
+                    url    : 'contact',
+                    dataType : 'json',
+                    data   : {"data": {"name": $('#contact-name').val(), "email": $('#contact-email').val(), "phone": $('#contact-phone').val()}},
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader("X-CSRF-Token", csrf_token);
+                    },
+                    success: function(response) {
+                        $('.modal-result').html(response["message"]);
                         $('.modal.in').modal('hide');
                         $('#result').modal('show');
 

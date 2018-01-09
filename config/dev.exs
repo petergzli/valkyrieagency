@@ -39,6 +39,10 @@ config :valkyrieagency, Valkyrieagency.Endpoint,
     ]
   ]
 
+config :valkyrieagency, Valkyrieagency.Mailer,
+  adapter: Bamboo.MandrillAdapter,
+  api_key: "NT697U-IxI9KgRAcbets3g"
+
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
 

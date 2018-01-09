@@ -347,12 +347,15 @@
 
                     <!-- Form -->
                     <form method="post" class="form-ajax">
-                        <input type="hidden" name="form" value="Get Free Trial">
+                        <input type="hidden" name="csrf-token" id="csrf-token" value="<%= Plug.CSRFProtection.get_csrf_token() %>">
                         <div class="col-md-5 column-mt underline">
-                            <input type="text" class="form-control" placeholder="Your name... *" required>
+                            <input type="text" id="contact-name" class="form-control" placeholder="Your name... *" required>
                         </div>
                         <div class="col-md-5 column-mt underline">
-                            <input type="email" class="form-control" placeholder="E-mail address... *" required>
+                            <input type="email" id="contact-email" class="form-control" placeholder="E-mail address... *" required>
+                        </div>
+                        <div class="col-md-5 column-mt underline">
+                            <input type="phone" id="contact-phone" class="form-control" placeholder="(123) 456-7890 ... *" required>
                         </div>
                         <div class="col-md-2 column-mt">
                             <button type="submit" class="btn btn-colored">Get a Quote</button>

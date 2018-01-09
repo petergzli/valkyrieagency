@@ -4,7 +4,7 @@ defmodule Valkyrieagency.Mixfile do
   def project do
     [
       app: :valkyrieagency,
-      version: "0.0.8",
+      version: "0.0.9",
       elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
@@ -21,7 +21,7 @@ defmodule Valkyrieagency.Mixfile do
     [
       mod: {Valkyrieagency, []},
       extra_applications: [:logger],
-      applications: [:phoenix, :phoenix_html, :cowboy, :edeliver, :postgrex, :ecto, :gettext]
+      applications: [:phoenix, :phoenix_html, :cowboy, :edeliver, :postgrex, :ecto, :gettext, :bamboo]
     ]
   end
 
@@ -43,7 +43,8 @@ defmodule Valkyrieagency.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:edeliver, "~> 1.4.2"},
-      {:distillery, "~> 1.4"}
+      {:distillery, "~> 1.4"},
+      {:bamboo, "~> 0.8"}
     ]
   end
 
