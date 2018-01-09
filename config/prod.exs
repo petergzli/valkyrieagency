@@ -20,6 +20,10 @@ config :phoenix, :serve_endpoints, true
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :valkyrieagency, Valkyrieagency.Mailer,
+  adapter: Bamboo.MandrillAdapter,
+  api_key: "NT697U-IxI9KgRAcbets3g"
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
