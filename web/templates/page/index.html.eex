@@ -370,10 +370,8 @@
                     <!-- Contact information -->
                     <ul class="contact-information">
                         <li class="contact-logo"><a href="#"><img src="images/valkyrie-agency-logo-full.png" alt="Company Name"></a></li>
-                        <li><a href="mailto:clients@example.com"><i class="fa fa-envelope"></i>clients@example.com</a></li>
-                        <li><a href="#"><i class="fa fa-phone"></i>+1 (555) 123-8877</a></li>
+                        <li><a href="mailto:clients@example.com"><i class="fa fa-envelope"></i>max@valkyrieagency.com</a></li>
                     </ul><!-- /Contact information -->
-
                 </div><!-- /Right column -->
 
             </div><!-- /Section content -->
