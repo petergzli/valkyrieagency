@@ -29,7 +29,7 @@
                             </h2>
                             <!-- Post content -->
                             <p class="text-muted">
-                                Our founders were once customers of large scale development shops and quickly discovered how expensive and cryptic the process was. There were many hidden costs and updates were only presented after dozens of hours were already invoiced. What more, these shops were completely uninvolved after the project was finished leaving their clients to deal with persisting technical issues themselves. 
+                                Our founders were once customers of large scale development shops and quickly discovered how expensive and cryptic the process was. There were many hidden costs and updates were only presented after dozens of hours were already invoiced. What's more, these shops were completely uninvolved after the project was finished leaving their clients to deal with persisting technical issues themselves. 
                             </p><!-- /Post content -->
 
                             <p class="text-muted">
@@ -246,7 +246,7 @@
                             </h2>
                             <!-- Post content -->
                             <p class="text-muted">
-                                The Valkyrie Agency has taken an idea and developed a dating app which has been featured on ten of the most well known publications. We offered end to end consulting throughout their entire life cycle.  
+                                The Valkyrie Agency has taken an idea and developed a dating app which has been featured in ten of the most well known publications. We offered end to end consulting throughout their entire life cycle.  
                             </p><!-- /Post content -->
 
                             <!-- Post content -->
@@ -370,7 +370,7 @@
                     <!-- Contact information -->
                     <ul class="contact-information">
                         <li class="contact-logo"><a href="#"><img src="images/valkyrie-agency-logo-full.png" alt="Company Name"></a></li>
-                        <li><a href="mailto:clients@example.com"><i class="fa fa-envelope"></i>max@valkyrieagency.com</a></li>
+                        <li><a href="mailto:max@valkyrieagency.com"><i class="fa fa-envelope"></i>max@valkyrieagency.com</a></li>
                     </ul><!-- /Contact information -->
                 </div><!-- /Right column -->
 
